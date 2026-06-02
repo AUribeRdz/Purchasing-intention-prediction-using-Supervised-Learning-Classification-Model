@@ -1,6 +1,13 @@
-This solution predicts online shoppers’ purchasing intention using best classification model which is selected using a machine learning pipeline that examinees three classification models, determines best performing model and its parameters based on cross-validation scores. Additionaly accuracy, precision, recall, f1 and confusion matrix scores are calculated and visualizations display models accuracy scores and confusion matrix.
+# Purchasing intention prediction — supervised learning classification Predicts whether an online session will result in a purchase by evaluating three classification models in a structured ML pipeline and selecting the best performer via cross-validation. 
 
-Online shopppers registered 12,330 transactional sessions during their visit in a website sale point each session belongs to a different user in a 1-year period to avoid any tendency to a specific campaign, special day, user profile, or period.
+## Approach 
+1. Data preprocessing and feature engineering on e-commerce session data
+2. Three classifiers trained: [model A], [model B], [model C]
+3. Cross-validation scoring used to compare generalization performance
+4. Best model's hyperparameters tuned and final evaluation reported
 
-Now, having the best classification model and upcomming real time new sessions this model will be able to predict the visitor’s shopping intent and Web site abandonment likelihood providing insight on what sales and promotion campaign apply to each case.# Purchasing-intention-prediction-using-Supervised-Learning-Classification-Model
-Using a Machine Learning pipeline that examinees three classification models, determines best performing model and its parameters based on cross-validation scores
+## Key takeaway The pipeline structure — train, evaluate, select, tune — mirrors production ML workflows where model choice must be justified with reproducible metrics, not intuition. 
+
+## Tech stack Python · Scikit-learn · Pandas · Jupyter Notebook 
+
+## Skills demonstrated Supervised learning · Model evaluation · Cross-validation · Feature engineering · ML pipeline design
